@@ -1,0 +1,44 @@
+body{
+background:black;
+color:white;
+font-family:Arial;
+}
+
+.navbar-brand{
+color:red !important;
+font-weight:bold;
+font-size:28px;
+}
+
+.hero{
+height:80vh;
+background:url("https://picsum.photos/1600/800") center/cover;
+display:flex;
+align-items:center;
+padding-left:50px;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:bold;
+}
+
+.movie-row{
+margin-top:40px;
+}
+
+.movie-card img{
+border-radius:5px;
+transition:0.4s;
+}
+
+.movie-card img:hover{
+transform:scale(1.15);
+}
+
+footer{
+background:#111;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
